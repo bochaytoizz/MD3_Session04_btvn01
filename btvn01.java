@@ -33,6 +33,10 @@ public class btvn01 {
         }
 
         // sau khi sắp xếp, phần tử đầu tiên là lớn nhất
+         System.out.println("Mảng sau khi đã được sắp xếp theo thứ tự giảm dần:");
+        for(int element : arr){
+            System.out.print(element + " ");
+        }
         System.out.println("Phần tử lớn nhất là: " + arr[0]);
         sc.close();
     }
